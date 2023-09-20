@@ -18,67 +18,103 @@ header {
     background-color: var(--primary);
   }
   
-  header h1 {
-    color: var(--primary);
-    background-color: var(--secondary);
-    padding: 1rem 2rem;
-    font-size: 30px;
-    letter-spacing: 0.2rem;
-    line-height: 1;
-    border-radius: 30px;
-    box-shadow: 7px 7px 3px var(--secondarydark);
-  }
-  
-  header nav {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  header nav a {
-    text-decoration:underline;
-    text-underline-offset: 5px;
-    padding: 0.2rem;
-    color: var(--secondary);
-    margin-right: 1rem;
-    font-size: 15px;
-  }
-  
-  nav a:hover {
-    background-size: 100% 100%;
-    color: var(--tertiary);
-  }
- 
-  .banner {
-    background-image: url("../image/Background\ img\ cut.jpg"), linear-gradient(var(--secondary) 80%, var(--secondarydark) 100%);
-    background-size: cover;
-    background-position: center;
-    background-blend-mode:luminosity;
-    min-height: 25vh;
-    padding: 2% 6%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-  }
+header h1 {
+  color: var(--primary);
+  background-color: var(--secondary);
+  padding: 1rem 2rem;
+  font-size: 30px;
+  letter-spacing: 0.1rem;
+  line-height: 1;
+  border-radius: 30px;
+  box-shadow: 7px 7px 3px var(--secondarydark);
+}
 
-  .banner h2 {
-    color: var(--secondary);
-    background-color: var(--tertiary);
-    padding: 10px 10px;
-    font-style: italic;
-    border-radius: 10px;
-    border: solid 3px var(--secondary);
-  }
-  
-  .cphoto {
-    margin: 20px;
-    border-radius: 100px;
-  }
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-  .banner h2 {
-    color: var(--secondary);
-    background-color: var(--tertiary);
-    padding: 10px 10px;
-    font-style: italic;
-    border-radius: 10px;
-    border: solid 3px var(--secondary);
-  }
+header nav a {
+  text-decoration:underline;
+  text-underline-offset: 5px;
+  padding: 0.2rem;
+  color: var(--secondary);
+  margin-right: 1rem;
+  font-size: 15px;
+}
+
+nav a:hover {
+  background-size: 100% 100%;
+  color: var(--tertiary);
+}
+
+.banner {
+  background-image: url("../image/Background\ img\ cut.jpg"), linear-gradient(var(--secondary) 80%, var(--secondarydark) 100%);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode:luminosity;
+  min-height: 25vh;
+  padding: 2% 6%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.banner h2 {
+  color: var(--secondary);
+  background-color: var(--tertiary);
+  padding: 10px 10px;
+  font-style: italic;
+  border-radius: 10px;
+  border: solid 3px var(--secondary);
+}
+
+.cphoto {
+  margin: 20px;
+  border-radius: 100px;
+}
+
+.banner h2 {
+  color: var(--secondary);
+  background-color: var(--tertiary);
+  padding: 10px 10px;
+  font-style: italic;
+  border-radius: 10px;
+  border: solid 3px var(--secondary);
+}
+
+main {
+  margin: 2ex 2ex;
+}
+
+section h2 {
+  color:var(--primary);
+  font-size: 25px;
+  margin: 0 0 5px;
+  padding-bottom: 5px;
+  border-bottom: dashed 2px var(--secondarydark);
+}
+
+.aboutMe {
+  display: flex;
+  align-items: center;
+}
+
+.aboutMe article p{
+  padding: 1ex 0.5ex;
+  line-height: 2ex;
+  align-content: center;
+}
+
+figure a::after {
+  content: '';
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background-image: url(/assets/image/github\ logo.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  position:relative;
+  margin-left: 2px;
+}
