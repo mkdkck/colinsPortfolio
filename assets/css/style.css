@@ -50,7 +50,7 @@ nav a:hover {
 }
 
 .banner {
-  background-image: url("../assets/image/Background-img-cut.jpg"), linear-gradient(var(--secondary) 80%, var(--secondarydark) 100%);
+  background-image: url("./assets/image/Background-img-cut.jpg"), linear-gradient(var(--secondary) 80%, var(--secondarydark) 100%);
   background-size: cover;
   background-position: center;
   background-blend-mode:luminosity;
@@ -115,7 +115,7 @@ justify-content: center;
   display: inline-block;
   width: 20px;
   height: 20px;
-  background-image: url("../assets/image/github-logo.png");
+  background-image: url("./assets/image/github-logo.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position:center;
@@ -173,15 +173,15 @@ justify-content: center;
 }
 
 .Horiseon {
-  background-image: url("../assets/image/Horiseon.jpg");
+  background-image: url("./assets/image/Horiseon.jpg");
  }
 
 .portfolio {
-  background-image: url("../assets/image/Personal-Portfolio-page.jpg");
+  background-image: url("./assets/image/Personal-Portfolio-page.jpg");
 }
 
 .js {
-  background-image: url("../assets/image/JS.jpg");
+  background-image: url("./assets/image/JS.jpg");
 }
 
 .contact {
