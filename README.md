@@ -15,16 +15,16 @@ open and view the contents on https://mkdkck.github.io/colinsPortfolio/
 
 the page should show like the following pic:
 screen width over 820px
-<img src="/assets/image/over820px 1.png" alt=" over820px 1" width= 100%>
-<img src="/assets/image/over820px 2.png" alt=" over820px 2" width= 100%>
+<img src="/assets/image/over820px-1.png" alt=" over820px 1" width= 100%>
+<img src="/assets/image/over820px-2.png" alt=" over820px 2" width= 100%>
 
 screen width between 820px and 600px
-<img src="/assets/image/600-820px 1.png" alt=" 600-820px 1" width= 100%>
-<img src="/assets/image/600-820px 2.png" alt=" 600-820px 2" width= 100%>
+<img src="/assets/image/600-820px-1.png" alt=" 600-820px 1" width= 100%>
+<img src="/assets/image/600-820px-2.png" alt=" 600-820px 2" width= 100%>
 
 screen width less than 600px
-<img src="/assets/image/600px 1.png" alt=" 600px 1" width= 100%>
-<img src="/assets/image/600px 1.png" alt=" 600px 2" width= 100%>
+<img src="/assets/image/600px-1.png" alt=" 600px 1" width= 100%>
+<img src="/assets/image/600px-1.png" alt=" 600px 2" width= 100%>
 
 HTML & CSS codes can be examined on https://github.com/mkdkck/colinsPortfolio
 
