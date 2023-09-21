@@ -110,7 +110,7 @@ flex-wrap: wrap;
 justify-content: center;
 }
 
-.projects b::before {
+.projects b:before {
   content: '';
   display: inline-block;
   width: 20px;
@@ -173,15 +173,15 @@ justify-content: center;
 }
 
 .Horiseon {
-  background-image: url(/assets/image/Horiseon.png);
+  background-image: url(../assets/image/Horiseon.png);
  }
 
 .portfolio {
-  background-image: url(/assets/image/Personal\ Portfolio\ page.png);
+  background-image: url(../assets/image/Personal\ Portfolio\ page.png);
 }
 
 .js {
-  background-image: url(/assets/image/JS.png);
+  background-image: url(../assets/image/JS.png);
 }
 
 .contact {
