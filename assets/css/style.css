@@ -173,15 +173,15 @@ justify-content: center;
 }
 
 .Horiseon {
-  background-image: url(../assets/image/Horiseon.png);
+  background-image: url(/assets/image/Horiseon.jpg);
  }
 
 .portfolio {
-  background-image: url(../assets/image/Personal\ Portfolio\ page.png);
+  background-image: url(/assets/image/Personal\ Portfolio\ page.jpg);
 }
 
 .js {
-  background-image: url(../assets/image/JS.png);
+  background-image: url(/assets/image/JS.jpg);
 }
 
 .contact {
